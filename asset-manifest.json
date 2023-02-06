@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/adventure/static/css/main.87281892.css",
+    "main.js": "/adventure/static/js/main.9f58de54.js",
+    "static/media/video-1.mp4": "/adventure/static/media/video-1.59e75226d30ad48f9ede.mp4",
+    "static/media/img-service.png": "/adventure/static/media/img-service.81892b938e6fb63b5f2c.png",
+    "static/media/logo-skype.svg": "/adventure/static/media/logo-skype.3b3067be6458d58b088dd9d7923d4e28.svg",
+    "static/media/eye-off-outline.svg": "/adventure/static/media/eye-off-outline.e5a32984f0d3123dccd116a852867930.svg",
+    "index.html": "/adventure/index.html",
+    "static/media/logo-twitter.svg": "/adventure/static/media/logo-twitter.62976c081dee9df5e089714a43f81083.svg",
+    "static/media/logo-instagram.svg": "/adventure/static/media/logo-instagram.3f986527d185ed9ef19e215f7637f59f.svg",
+    "static/media/eye-outline.svg": "/adventure/static/media/eye-outline.dd0d0ce95c0a4e0bd8b1169e000e1dda.svg",
+    "static/media/logo-facebook.svg": "/adventure/static/media/logo-facebook.84318d1245b58f3c15c8fe7a85568b74.svg",
+    "main.87281892.css.map": "/adventure/static/css/main.87281892.css.map",
+    "main.9f58de54.js.map": "/adventure/static/js/main.9f58de54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87281892.css",
+    "static/js/main.9f58de54.js"
+  ]
+}
