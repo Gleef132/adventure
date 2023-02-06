@@ -88,8 +88,7 @@ const Header = () => {
 		if (window.innerWidth < 991) {
 			setMobileShopListActive(true)
 		}
-		let arr = pathname.split('').filter((ch, i) => ch === '/')
-		if (arr.length >= 2) {
+		if (pathname.indexOf('product') !== -1) {
 			setPathProduct(true)
 		} else {
 			setPathProduct(false)
@@ -117,7 +116,7 @@ const Header = () => {
 							</div>
 						</div>
 						<ul className={cl.menu__list}>
-							<Link to='/' className={pathname === '/' ? `${cl.menu__link} ${cl.active}` : `${cl.menu__link}`}
+							<Link to='/wines-shop/' className={pathname === '/wines-shop/' ? `${cl.menu__link} ${cl.active}` : `${cl.menu__link}`}
 								onClick={scrollToPageHome}
 							>Home</Link>
 							<Link to='/about' className={pathname === '/about' ? `${cl.menu__link} ${cl.active}` : `${cl.menu__link}`}

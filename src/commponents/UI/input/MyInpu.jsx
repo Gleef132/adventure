@@ -3,7 +3,7 @@ import classes from './MyInput.module.scss'
 
 const MyInput = (props, className) => {
 	return (
-		<input {...props} className={`${classes.input} ${className}`} />
+		<input {...props} autoFocus className={`${classes.input} ${className}`} />
 	);
 };
 

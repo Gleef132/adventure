@@ -54,7 +54,7 @@ const MainSearch = ({ props, mainSearchActiveFn }) => {
 					<SocialIcon2 />
 					<div className={cl.search__prompt} id='searchTitleMainBlock'>
 						{wines.map(item =>
-							<Link className={cl.search__prompt__text} to={'/product/' + item.id} key={item.id}><li id='searchTitleMain'>{item.name}</li></Link>
+							<Link className={cl.search__prompt__text} onClick={mainSearchActiveFn} to={'/product/' + item.id} key={item.id}><li id='searchTitleMain'>{item.name}</li></Link>
 						)}
 					</div>
 				</form>
